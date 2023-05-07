@@ -49,9 +49,3 @@ def filedownload(df):
 
 st.markdown(filedownload(df), unsafe_allow_html=True)
 
-
-
-
-
-
-
