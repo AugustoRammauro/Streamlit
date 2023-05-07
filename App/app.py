@@ -44,7 +44,7 @@ st.dataframe(df)
 def filedownload(df):
     csv = df.to_csv(index=False)
     b64 = base64.b64encode(csv.encode()).decode()
-    href = f'<a href="data:file/csv;base64,{b64}" download="Base_de_Datos.csv">Download CSV File</a>'
+    href = f'<a href="data:file/csv;base64,{b64}" download="Base_de_Datos.csv">:green[Download CSV File]</a>'
     return href
 
 st.markdown(filedownload(df), unsafe_allow_html=True)
