@@ -4,6 +4,8 @@ import numpy as np
 import datetime
 from datetime import date
 
+st.set_page_config(layout="wide", page_title = "Pato R.", page_icon=":soccer:")
+
 st.title("Jogos do Dia")
 
 dia = st.date_input(
