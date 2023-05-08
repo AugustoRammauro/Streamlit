@@ -7,9 +7,6 @@ st.set_page_config(page_title = "Pato R.", page_icon=":soccer:")
 
 st.set_page_config(layout="wide", page_icon=":soccer:", page_title="FBD Web App Football Data")
 
-primary_clr=
-txt_clr=
-
 st.sidebar.header("Leagues")
 selected_league = st.sidebar.selectbox('League',['England','Germany','Italy','Spain','France'])
 
