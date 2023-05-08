@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import base64
 
+st.set_page_config(layout="wide", page_title = "Pato R.", page_icon=":soccer:")
+
 st.title("Web App Football Data")
 
 st.sidebar.header("Leagues")
