@@ -3,11 +3,7 @@ import pandas as pd
 import numpy as np
 import base64
 
-st.set_page_config(page_title = "Pato R.", page_icon=":soccer:")
-
-st.set_page_config(layout="wide", page_icon=":soccer:", page_title="FBD Web App Football Data")
-
-# st.title("Web App Football Data")
+st.title("Web App Football Data")
 
 st.sidebar.header("Leagues")
 selected_league = st.sidebar.selectbox('League',['England','Germany','Italy','Spain','France'])
